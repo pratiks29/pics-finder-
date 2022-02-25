@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './Components/App';
 
-const App = function(){
-    return <div>
-        hello world
-    </div>
-}
 
 ReactDOM.render(<App/>,document.querySelector('#root' ));
